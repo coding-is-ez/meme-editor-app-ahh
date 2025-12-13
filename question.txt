@@ -1,0 +1,10 @@
+What is the capital of Vietnam?|Hanoi|Ho Chi Minh City|Da Nang|Hue|A
+Which planet is closest to the Sun?|Earth|Mercury|Mars|Venus|B
+What is the largest ocean in the world?|Indian Ocean|Atlantic Ocean|Pacific Ocean|Arctic Ocean|C
+How many days are there in a leap year?|365|366|364|360|B
+Which of the following animals can fly?|Dog|Cat|Bat|Fish|C
+Which country is famous for the Eiffel Tower?|Italy|England|France|Germany|C
+What is “Python”?|A programming language|A plant species|A mineral type|A festival|A
+Water boils at how many degrees Celsius (under normal conditions)?|50|90|100|120|C
+Which organ pumps blood throughout the body?|Lungs|Liver|Heart|Kidneys|C
+Who is the author of *The Tale of Kieu*?|Ngo Tat To|Nguyen Du|Xuan Dieu|Ho Xuan Huong|B

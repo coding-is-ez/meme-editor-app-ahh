@@ -11,6 +11,7 @@ def draw_text_recolor():
     global sticker_entry
     global image_entry
     global canvas
+    global canvas_2
     canvas.clear()
     txt = text_entry.value
     colr = color_entry.value.lower()
@@ -20,7 +21,7 @@ def draw_text_recolor():
     imgae = image_entry.value
     canvas.image(x, y, image = imgae, width = 300, height = 300)
     canvas.text(x, y, text = txt, color = colr, font = fon)
-    
+
 
     if sticker_entry.value == "Oval":
         canvas.oval(x + 50, y + 50, x + 80, y + 80)
@@ -36,9 +37,6 @@ def import_png():
     for file in os.listdir():
         if file.lower().endswith(".png") or file.lower().endswith(".jpg"):
             image_entry.append(file)
-
-
-
 
 # GUI part
 window = App(title = "Meme Editor")
@@ -66,7 +64,5 @@ image_entry = ListBox(canvas_box, grid = [0, 0], items = [], command = draw_text
 import_png()
 
 canvas = Drawing(canvas_box, grid =[1, 0], width = 300, height = 300)
-
-
 
 window.display()
